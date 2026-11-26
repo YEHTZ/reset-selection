@@ -1,0 +1,7 @@
+# This site is a single, self-contained HTML page (fonts and scripts are bundled
+# inline), so no framework, package manager or Node version is needed.
+# The build step copies the page into `dist/` as `index.html` so it is served
+# at the site root, without renaming or modifying the original file.
+[build]
+  command = 'mkdir -p dist && cp "Reset.Selection 選物店網站 – Reset.Selection 精品選物版.html" dist/index.html'
+  publish = "dist"
